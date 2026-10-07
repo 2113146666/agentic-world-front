@@ -34,6 +34,7 @@ export const LAYER_LABELS: Record<string, string> = {
 
 export const CATEGORY_LABELS: Record<string, string> = {
   "llm-basics": "大模型基础",
+  platform: "工作室架构",
   harness: "Harness 工程",
   models: "开闭源模型",
   venues: "顶会方向",
@@ -41,6 +42,7 @@ export const CATEGORY_LABELS: Record<string, string> = {
   "comic-drama": "漫剧工作流",
   game: "游戏工作流",
   "finance-llm": "金融工作流",
+  hotspot: "热点追踪",
 };
 
 export function entryPoints(e: KnowledgeEntry): string[] {

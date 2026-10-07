@@ -11,9 +11,9 @@ import type { KnowledgeEntry, KnowledgeMeta } from "../types";
 
 const LAYER_ORDER = ["foundation", "frontier", "compound"];
 const CAT_BY_LAYER: Record<string, string[]> = {
-  foundation: ["llm-basics"],
+  foundation: ["llm-basics", "platform"],
   frontier: ["venues", "models", "harness"],
-  compound: ["novel", "comic-drama", "game", "finance-llm"],
+  compound: ["novel", "comic-drama", "game", "finance-llm", "hotspot"],
 };
 
 export function WikiPage() {
